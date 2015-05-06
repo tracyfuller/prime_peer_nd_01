@@ -2,11 +2,12 @@ var convert = require('./convert');
 var randomNumber = require('./randomNumber');
 
 var money = function(){
-    convert(randomNumber(1, 100));
+    var rando = randomNumber(1, 100);
+    return convert(rando);
 };
 
 var moneyBalance = function(){
-    return "Account balance: " + money;
+    return "Account balance: " + money();
 };
 
 module.exports.money = money;

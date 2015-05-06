@@ -3,4 +3,4 @@ var randomNumber = function(min, max){
 };
 
 // parentheses ? after right randomNumber?
-module.exports.randomNumber = randomNumber;
+module.exports = randomNumber;

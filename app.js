@@ -5,7 +5,7 @@ var balance = require('./balance');
 app.set('port', (process.env.PORT || 5000));
 
 app.get("/", function(request, response){
-    response.send(balance());
+    response.send(balance.moneyBalance());
 });
 
 app.listen(app.get('port'), function(){
