@@ -1,0 +1,14 @@
+{
+  "name": "prime_peer_nd_01",
+  "version": "1.0.0",
+  "description": "Peer Node Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tracy & Clare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
